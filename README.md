@@ -1,5 +1,5 @@
 ## Neste repositório, temos um projeto de um site de confeitaria desenvolvido com javascript.
-Este projeto é para ajudar um pequeno emprendedor a divulgar seus produtos e ao mesmo tempo, me ajudar a desenvolver novos conhecimentos na programação Web.
+Este projeto é para ajudar um pequeno emprendedor a divulgar seus produtos e ao mesmo tempo me ajudar a desenvolver novos conhecimentos na programação Web.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
