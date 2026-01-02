@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forne Docce confeitaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="img/logo.png" alt="Logo Forno docce">            
+    </div>
+    <h1 class="titulo-central">Forno docce</h1>     
+    
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Confeitaria Artesanal</h2>
+    <p>Bolos, doces e bolachas feitos com carinho para seus melhores momentos</p>    
+</section>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <div class="produtos">
+        <div class="produto">
+            <img src="img/boloRed.jfif" alt="Bolos">
+            <h3>Bolos diversos</h3>
+            <p>Recheados, cremoso</p>
+            <button onclick="pedidoWhats('Bolo de Chocolate')">Pedir</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/paoMel.jfif" alt="Bolo de Mel">
+            <h3>Bolo de mel Gourmet</h3>
+            <p>Sabores variados</p>
+            <button onclick="pedidoWhats('Bolo de mel Gourmet')">Pedir</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/bolachas.jfif" alt="Bolachas">
+            <h3>Bolachas festivas</h3>
+            <p>Natal, Mães, Pais..</p>
+            <button onclick="pedidoWhats('Bolachas')">Pedir</button>
+        </div>
+    </div>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+        A Forno Doce nasceu do amor pela confeitaria artesanal.
+        Trabalhamos com ingredientes selecionados e muito carinho
+        para tornar cada pedido especial.
+    </p>
+</section>
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+
+    <div class="contato-botoes">
+        <a class="btn-contato whatsapp"
+           href="https://wa.me/555197145181"
+           target="_blank"
+           rel="noopener noreferrer">
+            📞 WhatsApp
+        </a>
+
+        <a class="btn-contato instagram"
+           href="https://www.instagram.com/forno.docce/"
+           target="_blank"
+           rel="noopener noreferrer">
+            📸 Instagram
+        </a>
+    </div>
+</section>
+
+
+<footer>
+    <p>Since - 2024 - Patrícia Pompeo</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
