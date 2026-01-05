@@ -49,7 +49,7 @@ header {
 }
 
 
-header nav a { /* informacoes*/
+header nav a {              /* informacoes*/
     color: white;
     margin-left: 15px;
     text-decoration: none;
@@ -58,7 +58,7 @@ header nav a { /* informacoes*/
     font-family: Georgia;
 }
 
-.hero { /*texto 2*/
+.hero {                     /*texto 2*/
     text-align: center;
     padding: 60px 20px;
     background: white;
@@ -125,7 +125,8 @@ footer {
     background: #db7ff1;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    font-family: "Titan One", cursive;
 }
 
 h1 {
@@ -136,12 +137,12 @@ h1 {
 .contato {
     padding: 70px 20px;
     text-align: center;
-    background: #f9f2fb; /* lilás claro */
+    background: #f9f2fb; 
 }
 
 /* TÍTULO */
 .contato h2 {
-    color: #6A0DAD; /* roxo */
+    color: #6A0DAD; 
     font-size: 32px;
     margin-bottom: 10px;
     font-family: "Titan One", cursive;
@@ -233,7 +234,7 @@ h1 {
     }
 }
 
-@media (max-width: 768px) { /*produtos cards*/
+@media (max-width: 768px) {         /*produtos cards*/
     .produtos {
         flex-direction: column;
         align-items: center;
@@ -245,7 +246,7 @@ h1 {
     }
 }
 
-@media (max-width: 768px) { /*botoes whatsApp/Instagram*/
+@media (max-width: 768px) {         /*botoes whatsApp/Instagram*/
     .btn-contato {
         width: 100%;
         max-width: 280px;
@@ -253,7 +254,7 @@ h1 {
     }
 }
 
-@media (max-width: 768px) { /*footer*/
+@media (max-width: 768px) {         /*footer*/
     footer {
         font-size: 14px;
         padding: 20px 10px;
